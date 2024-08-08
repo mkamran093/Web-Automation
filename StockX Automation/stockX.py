@@ -28,8 +28,8 @@ for proc in psutil.process_iter(['pid', 'name']):
     except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
         pass
 
-EMAIL = "kamranbangash@nexbit.pk"
-PASSWORD = "Kamran123."
+EMAIL = "email address"
+PASSWORD = "password"
 COOKIES_FILE = "cookies.pkl"
 webdriver_path = "chromedriver.exe"
 
